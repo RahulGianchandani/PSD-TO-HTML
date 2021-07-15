@@ -1037,7 +1037,11 @@ footer .icons  .fa-google-plus-square:hover{
     font-size: 0.9em;
 }
 
-
+/* footer */
+footer #Contact img {
+    width: 120px;
+}
+/* footer ends */
 
 
 }
