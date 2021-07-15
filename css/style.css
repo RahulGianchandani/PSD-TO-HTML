@@ -85,19 +85,6 @@ header {
     background-color: black;
 }
 
-/* logo */
-
-.navbar-brand img {
-    /* margin: 0px 40px; */
-}
-
-/* logo */
-
-#Items { /*nav ul */
-    /* padding: 10px 0px; */
-    
-
-}
 
 /* navbar mid items */
 #Items .nav-item a {
@@ -107,9 +94,7 @@ header {
 }
 
 
-#Items a {
-    /* margin: 0px 10px; */
-}
+
 #Items .nav-item a:hover {
     color: green;
     font-size: 1.2rem;
@@ -126,12 +111,7 @@ header {
 
 /*ADVERTISER AND PUBLISHER BUTTONS */
 
-.postlinks {
-    /* margin: 20px 0px ; */
-    
 
-    
-}
 
 .postlinks a {
     padding: 12px 18px;
@@ -176,9 +156,7 @@ header {
 
 
 /**** CAROUSEL  ***/
-#firstCarousel .carousel-caption {
-    /* bottom: 100px; */
-}
+
 
 #firstCarousel .carousel-caption h1:first-child {
     margin-bottom: 0;
@@ -202,9 +180,7 @@ header {
     margin-top: 5px;
 }
 
-#firstCarousel .twoBtns {
-    /* margin-top: 35px; */
-}
+
 #firstCarousel .twoBtns a {
     text-decoration: none;
     padding: 15px 50px;
@@ -752,10 +728,16 @@ header {
     line-height: 2.6em;
 }
 
-.footer-top #Contact a {
+
+.footer-top  a {
     text-decoration: none;
     color: white;
 }
+
+.footer-top  a:hover {
+    color: rgb(0, 60, 255);
+}
+
 .footer-top #Contact p {
     font-size: 13px;
     font-weight: 400;
