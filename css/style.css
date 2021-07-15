@@ -1,0 +1,1421 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lily+Script+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+/*1st contact navbar */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family:'Rubik', sans-serif;
+}
+
+#firstnav .container {
+    /* display: flex; */
+    justify-content: space-between  ;
+    align-items: center;
+    align-content: center;
+    /* padding: 0; */
+}
+
+#firstnav #num {
+    text-align: center;
+
+}
+
+
+
+#firstnav a:not(.dropdown a) {
+    color: white;
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 10px;
+}
+
+#firstnav button {
+    color: white;
+    
+    font-size: 0.9rem;
+}
+
+#firstnav button:hover {
+    background-color: rgba(8, 8, 8, 0.5);
+}
+
+#firstnav a:hover {
+    background-color: rgba(91, 93, 94, 0.3);
+    
+}
+
+#firstnav ul {
+    margin: 0;
+    /* display: inline-flex; */
+    /* align-items: baseline; */
+    
+    
+    
+}
+
+#firstnav ul li {
+    text-decoration: none;
+    list-style: none;
+    
+    
+
+    
+}
+
+
+
+
+
+/*1st contact navbar ends */
+
+/* main navbar */ 
+
+header {
+    background-color: black;
+}
+
+/* logo */
+
+.navbar-brand img {
+    /* margin: 0px 40px; */
+}
+
+/* logo */
+
+#Items { /*nav ul */
+    /* padding: 10px 0px; */
+    
+
+}
+
+/* navbar mid items */
+#Items .nav-item a {
+    /* font-size: 0.8rem; */
+    color: #FFFFFF;  
+    transition: 300ms; 
+}
+
+
+#Items a {
+    /* margin: 0px 10px; */
+}
+#Items .nav-item a:hover {
+    color: green;
+    font-size: 1.2rem;
+}
+
+
+
+#Items .active a {
+    color: green;
+}
+
+
+/* navbar mid items */
+
+/*ADVERTISER AND PUBLISHER BUTTONS */
+
+.postlinks {
+    /* margin: 20px 0px ; */
+    
+
+    
+}
+
+.postlinks a {
+    padding: 12px 18px;
+    font-weight: bolder;
+    border-radius: 30px;
+    color: white;
+    text-decoration: none;
+    transition: 500ms;
+}
+
+
+.postlinks a:first-child {
+    background-color: rgb(1, 213, 250);
+    margin-left: 10px;
+    
+}
+
+.postlinks a:last-child {
+    background-color: rgb(144 236 74 / 92%);
+    margin-left: 4px;
+    
+}
+
+.postlinks a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.postlinks a:last-child:hover {
+    background-color: rgb(9, 250, 9);
+    padding: 10px 16px;
+}
+ 
+.postlinks a:first-child:hover {
+    background-color: rgb(0, 204, 255);
+    padding: 10px 16px;
+
+}
+    /*ADVERTISER AND PUBLISHER BUTTONS */
+
+/*navbar  ends*/ 
+
+
+/**** CAROUSEL  ***/
+#firstCarousel .carousel-caption {
+    /* bottom: 100px; */
+}
+
+#firstCarousel .carousel-caption h1:first-child {
+    margin-bottom: 0;
+}
+#firstCarousel .carousel-caption h1 {
+    /* margin: 5px 30%; */
+    font-family: 'Montserrat', sans-serif; 
+    text-shadow: 2px 2px 4px #000000;
+
+} 
+
+#firstCarousel .carousel-caption h1 span {
+    font-family: 'Lily Script One', cursive;
+    font-style: italic;
+    letter-spacing: 4px; 
+    margin-right: 4px;
+}
+
+#firstCarousel .carousel-caption p:first-of-type {
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+
+#firstCarousel .twoBtns {
+    /* margin-top: 35px; */
+}
+#firstCarousel .twoBtns a {
+    text-decoration: none;
+    padding: 15px 50px;
+    border-radius: 30px;
+    transition: 500ms;
+    display: inline-block;
+    
+}
+
+#firstCarousel .twoBtns a:first-child {
+    background-color: #FFFFFF;
+    color: rgb(0, 0, 0);
+    
+}
+
+#firstCarousel .twoBtns a:last-child {
+    background:linear-gradient(to right,rgb(0, 119, 255),rgb(57, 163, 224));
+    color: white;
+    
+}
+
+#firstCarousel .twoBtns a:first-child:hover {
+    background-color: black;
+    color: white;
+    /* padding: 12px 45px; */
+    
+}
+
+#firstCarousel .twoBtns a:last-child:hover {
+    background:linear-gradient(to right,rgb(110, 134, 197),rgb(11, 235, 179));
+    color: rgb(16, 40, 255);
+    animation: box 500ms ease-in-out 0 1 forwards;
+}
+
+
+
+
+
+/*  
+.carousel-inner {
+    position: relative;
+    height: 500px;
+    width: 100%;
+}
+
+
+
+#firstCarousel .one {
+    background: url(/images/slide-1.png)  no-repeat center center /cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+#firstCarousel .two {
+    background: url(/images/slide-2.png)  no-repeat center center /cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+#firstCarousel .three {
+    background: url(/images/slide-3.png)  no-repeat center center /cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+} */
+
+
+
+
+
+#firstCarousel img {
+    filter: brightness(1.5);
+}
+
+/**** CAROUSEL ENDS  ***/
+
+
+/* ABOUT US section */
+
+
+#aboutSec h6 {
+    letter-spacing: 2px;
+    color: #0674fd;
+}
+
+#aboutSec h1 {
+    font-size: 3em;
+    position: relative;
+    
+}
+
+#aboutSec h1::after {
+    content: "";
+    position: absolute;
+    border-bottom: 4px solid #0674fd;;
+    /* height: 100%; */
+    width: 8%;
+    left: 0;
+    bottom: -28px;
+    
+    
+}
+
+#aboutSec h1 span{
+    font-family: 'Playfair Display', serif;
+    background: linear-gradient(to right, #065dfd, #00cdf9 80%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+
+
+}
+
+
+#aboutSec #Ptext {
+    font-size: 1.17em;
+    font-weight: 400;
+    margin-top: 50px;
+    
+}
+
+#aboutSec .skill-bar {
+    height: 10px;
+    background: #f0f0f0;
+    border-radius: 8px;
+    width: 54%;
+}
+
+.first .skill-bar{
+    margin-left: 8px;
+}
+
+.second .skill-bar{ 
+    margin-left: 31px;
+}
+
+.first p, .second p {
+    font-size: 15px;
+}
+
+#aboutSec .skill-per {
+    height: 10px;
+    border-radius: 8px;
+    
+}
+
+#aboutSec .skill-bar .one {
+    width: 34%;
+    background-color: #79cd1c;
+}
+
+#aboutSec .skill-bar .two {
+    width: 93%;
+    background-color: #0674fd;
+}
+
+#ReadMore {
+    margin-top: 28px;
+   
+}
+
+#aboutSec a {
+    background:linear-gradient(to right, #065dfd, #01e3fa);
+    border-radius: 30px;
+    padding: 19px 70px;
+    color: white;
+    font-size: 15px;
+    display: inline-block;
+    text-decoration: none;
+    transition: 1s;
+    
+
+}
+
+
+#aboutSec a:hover {
+    color: #061ffd;
+    background-image:linear-gradient(to right, #84ee0b , #01b3fa 80%);
+    font-weight: bolder;
+    
+    
+}
+
+/* ABOUT US section ENDS*/
+
+
+/* DESIGN SECTION  */
+
+#designSec {
+    position: relative;
+    width: 100%;
+    height: 450px;
+}
+
+#designSec:before {
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: url(/images/get_start_bg.jpg) no-repeat center center/cover;
+    z-index: -1;
+    filter: brightness(2.5);
+}
+
+#designSec {
+    color: white;
+}
+
+#designSec h6 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 2px;
+    
+}
+
+#designSec h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+#designSec h1 span {
+    font-family: 'Playfair Display', serif;
+    background: linear-gradient(to right, #057ffd , #00ccf9);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+/* PLAY BUTTON  */
+  
+  .video-main {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .video {
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 100%;
+    background: transparent;
+    color: #fff;
+    display: inline-block;
+    background: #058bfc;
+    z-index: 999;
+  }
+  
+  @keyframes waves {
+    0% {
+      -webkit-transform: scale(0.2, 0.2);
+      transform: scale(0.2, 0.2);
+      opacity: 0;
+      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    }
+    50% {
+      opacity: 0.9;
+      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+    }
+    100% {
+      -webkit-transform: scale(0.9, 0.9);
+      transform: scale(0.9, 0.9);
+      opacity: 0;
+      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    }
+  }
+  
+  .fa-play:before {
+    content: "\f04b";
+  }
+  
+  .waves {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background: rgba(21 ,126 ,187, 0.6);
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    border-radius: 100%;
+    right: -50px;
+    bottom: -50px;
+    z-index: -1;
+     -webkit-animation: waves 3s ease-in-out infinite;
+    animation: waves 3s ease-in-out infinite;
+  }
+          
+  .wave-1 {
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+  }
+  
+  .wave-2 {
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+  }
+  
+  .wave-3 {
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+  }
+
+/* PLAY BUTTON ENDS */
+
+
+
+/* DESIGN SECTION ENDS */
+
+
+
+/* BRAND SECTION */
+
+
+#brandSec .firstrow h6::before{
+    content: "ADVERTISERS";
+    font-size: 60px;
+    position: absolute;
+    bottom: -24px;
+    z-index: -1;
+    opacity: 0.1;
+
+}
+
+#brandSec .firstrow h6{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 2px;
+    color: #0674fd;
+    position: relative;
+    z-index: 1;
+
+}
+
+#brandSec .firstrow h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    position: relative;
+}
+
+#brandSec .firstrow h1 span{
+    font-family: 'Playfair Display', serif;
+    background: linear-gradient(to right, #0674fd 50% , #00ccf9);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+#brandSec .firstrow h1::after{
+    content: "";
+    position: absolute;
+    border-bottom: 4px solid #0674fd;;
+    /* height: 100%; */
+    width: 8%;
+    left: 0;
+    bottom: -22px;
+    
+}
+
+
+#brandSec .firstrow p{ 
+    font-size: 1em;
+    font-weight: 400;
+    font-family: 'Rubik', sans-serif;
+    margin-top: 40px;
+}
+
+#brandSec .firstrow #twobuttons{
+    margin-top: 50px;
+    
+    
+}
+
+#brandSec .firstrow #twobuttons a{
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 16px;
+    padding: 18px 55px;
+    transition: 500ms;
+}
+
+#brandSec .firstrow #twobuttons a:first-child{
+    color: #FFFFFF;
+    background:linear-gradient(to right, #065dfd , #01e3fa);
+    
+    
+}
+#brandSec .firstrow #twobuttons a:first-child:hover{
+    color: #061ffd;
+    background-image:linear-gradient(to right, #84ee0b , #01b3fa 80%);
+    font-weight: bolder;
+
+}
+
+#brandSec .firstrow #twobuttons a:last-child{
+    color: #FFFFFF;
+    background:linear-gradient(to right, #078b07 , #67e40b);
+    
+}
+
+#brandSec .firstrow #twobuttons a:last-child:hover{
+    color: black;
+    background-image:linear-gradient(to right, #aaa7a0 , #e0e413 80%);
+    font-weight: bolder;
+
+}
+    #brandSec .Secondrow #twobuttons a:first-child{
+    padding: 18px 70px;
+
+}
+
+
+#brandSec .Secondrow h6::before{
+    content: "PUBLISHERS";
+    font-size: 67px;
+    position: absolute;
+    bottom: -25px;
+    z-index: -1;
+    opacity: 0.1;
+    
+
+}
+
+
+#brandSec #blogSec h6 {
+    letter-spacing: 2px;
+    color: #0674fd;
+}
+
+#brandSec #blogSec h1{
+    font-size: 44px;
+    position: relative;
+    
+}
+
+#brandSec #blogSec h1:first-child{
+    margin-bottom: 0;
+}
+
+#brandSec #blogSec h1 span {
+    font-family: 'Playfair Display', serif;
+    background: linear-gradient(to right, #0674fd 50% , #00ccf9);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+#brandSec #blogSec > div h1:last-of-type:after{
+    content: "";
+    position: absolute;
+    border-bottom: 4px solid #0674fd;;
+    /* height: 100%; */
+    width: 8%;
+    left: 45%;
+    bottom: -22px;
+    
+}
+
+
+#brandSec #blogSec p {
+    font-size: 17px;
+    margin-top: 40px;
+}
+
+
+
+#cardss .card {
+    border-radius: 20px;
+
+}
+
+#cardss img {
+    border-top-left-radius:  20px;
+    border-top-right-radius:  20px;
+
+
+}
+
+#cardss .line-bar {
+    height: 1.5px;
+    background: #e4dddd;
+    border-radius: 20px;
+    position: relative;
+
+}
+
+#cardss .line-per {
+    width: 12%;
+    background-color: #0674fd;
+    height: 5px;
+    position: absolute;
+    bottom: -2.5px;
+    /* border-radius: 8px; */
+}
+
+
+#cardss h5 {
+    font-size: 1.6em;
+    line-height: 1.4em;
+
+}
+#cardss span {
+    font-size: 0.9em;
+    font-weight: lighter;
+
+}
+
+#cardss #cardBtn {
+    margin-top: 22px;
+    margin-bottom: 10px;
+}
+
+#cardss a {
+    border-radius: 30px;
+    background: linear-gradient(to right, #065dfd , #01e3fa);
+    padding: 14px 35px;
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    transition: 500ms;
+}
+
+#cardss a:hover {
+    background: #0640fd;
+}
+
+/* BRAND  ENDS */
+
+
+/* FOOTER  */
+
+
+
+/* Top footer */
+.footer-top {
+    background-color: black;
+}
+
+.footer-top section ul li {
+    list-style: none;
+    line-height: 3em;
+    font-size: 14px;
+}
+
+.footer-top #Contact ul li{
+    line-height: 2.6em;
+}
+
+.footer-top a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-top a:hover {
+    color: rgb(0, 89, 255);
+}
+    .footer-top #Contact p {
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    
+}
+
+.footer-top #Contact .ContactIcons {
+    color: #0842ff;
+    font-size: 15px;
+}
+
+
+/* Top footer ENds */
+
+/* Bottom footer */
+
+footer .footer-bottom {
+    background-color: #6ebb19;
+    color: white;
+    font-family:'Rubik', sans-serif;
+    font-weight: 200;
+    font-size: 15px;
+}
+
+.footer-bottom .row {
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+
+footer .icons ul li {
+    list-style: none;
+    
+}
+
+
+footer .icons ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+footer .icons .SocialIcons {
+    font-size: 20px;
+    vertical-align: middle;
+    text-decoration: none;
+    
+}
+
+footer .icons .SocialIcons i{
+    transition: 200ms;
+}
+
+footer .icons .SocialIcons i:hover {
+    transform: translateY(-5px);
+}
+
+
+footer .icons .fa-facebook-square:hover{
+
+    color: #0210d3;
+}
+
+footer .icons .fa-instagram:hover{ 
+    color: #f09433; 
+
+  }
+
+
+footer .icons .fa-twitter-square:hover{
+    
+
+    color: #00acee;
+}
+
+
+footer .icons .fa-linkedin:hover{
+    color: #0072b1;
+}
+
+footer .icons  .fa-google-plus-square:hover{
+    color: #dd0b0b;
+}
+    /* Bottom footer ends */
+
+
+#scrolltotop { /* scroll up button arrow */
+    display: none;
+}
+
+#scrolltotop img {
+    filter: invert(100);
+    
+}
+
+
+#scrollupbtn { 
+    position:fixed ;
+    bottom: 15px;
+    right: 15px; 
+    transition: 1s;
+    padding: 3px 5px 3px 5px;
+    animation: ScrbtnUp 0.5s ease-in-out 0s 1;
+
+}
+
+
+
+@keyframes ScrbtnUp{
+    from {
+        bottom: -20px;
+    }
+
+    to {
+        bottom: 15px;
+    }
+}
+
+#scrollupbtn:hover {
+    background-color: #555;
+    transform:translateY(-20px);
+}
+
+
+
+
+
+
+/* FOOTER ENDS */
+
+
+
+
+
+/***** MEDIA QUERIES ****/
+
+
+/*** Large Screen ****/
+
+@media (min-width: 992px) and (max-width: 1200px){
+
+   /* black navbar */
+
+    #logoIcon img {
+        height: 80%;
+        width: 70%;
+    }
+
+    
+
+
+    #Items .nav-item a{
+        font-size: 13px;
+    }
+
+    #Items .nav-item a:hover{
+        font-size: 14px;
+    }
+
+    /* black navbar  ENDS*/
+
+    /* Carousel */
+    
+    .postlinks {
+        margin: auto;
+    }
+    
+    .postlinks a {
+        padding: 6px 8px;
+        font-size: 0.8em;
+        
+    }
+
+    /* Carousel ENDS */
+
+
+    /* Brands Section */
+
+    #cardss h5 {
+        font-size: 1.4em;
+    }
+    /* Brands Section ENDS */
+
+}
+
+    
+
+/*** Large Screen ENDS****/
+
+
+
+/*** Medium Screen ****/
+@media (min-width: 768px) and (max-width: 991px){
+
+ /* Carousel */
+    .carousel-inner img { /* carousel img size */
+        height: 450px;
+
+    }
+      
+
+
+    .postlinks a:first-child {
+        
+        margin-left: 0px;
+        
+    }
+    
+
+
+
+/* Carousel ENDS */
+
+ /* About us  */
+
+ #aboutSec h1 {
+    font-size: 2em;
+       
+}
+
+#aboutSec #Ptext {
+    font-size: 0.9em;
+    
+}
+
+.first p, .second p {
+    font-size: 12px;
+}
+
+.second .skill-bar{ 
+    margin-left: 27px;
+}
+
+
+
+ /* About us ENDS */
+
+/* Brand section */
+
+
+#brandSec .firstrow h6::before{
+    font-size: 50px;
+    bottom: -20px;
+    
+    
+    
+
+}
+
+#brandSec .firstrow h1{
+    font-size: 1.9em;
+}
+
+#brandSec .firstrow p{ 
+
+    font-size: 0.9em;
+
+}
+
+#brandSec .firstrow #twobuttons{
+    margin-top: 40px;
+    
+}
+
+#brandSec .firstrow #twobuttons a{
+    text-decoration: none;
+    border-radius: 30px;
+    padding: 15px 30px;
+    font-size: 14px;
+
+}
+
+#brandSec .Secondrow #twobuttons a:first-child{
+    padding: 15px 48px;
+
+}
+
+
+#brandSec .Secondrow h6 {
+    font-size: 13px;
+}
+
+#brandSec .Secondrow h1 {
+    font-size: 1.6em;
+}
+
+
+
+#cardss h5 {
+    font-size: 0.9em;
+}
+
+
+
+
+}
+/* Brand section ENDS */
+ 
+
+
+
+
+
+/*** Medium Screen ENDS ****/
+
+
+
+
+/*** SMALL SCREEN ***/
+@media (min-width: 576px) and (max-width: 767px){
+
+/* Carousel */
+    .carousel-inner img { /* carousel img size */
+        height: 450px;
+
+    }
+
+    
+    .postlinks a:first-child {
+        
+        margin-left: 0px;
+        
+    }
+    
+    #firstCarousel .carousel-caption h1 {
+        
+        margin-bottom: 20px;
+
+    }
+
+     #firstCarousel .carousel-caption p{
+        font-size: 0.9em;
+        letter-spacing: 1px;
+        font-weight: 500;
+        
+    } 
+
+    #firstCarousel .twoBtns a {
+        margin-top: 15px;
+        padding: 15px 40px;
+        border-radius: 30px;
+        font-size: 0.9em;
+    }
+
+      #ReadMore {
+        text-align: center;
+    }
+
+   
+/* Carousel ENDS */
+    
+
+    /* About us section */
+    #spacebtw {
+        margin-bottom: 90px;
+    }
+    /* About us section ENDS */
+
+    /* Brand Section */
+
+    
+
+    #spacee{/*space between text and image in small screen */
+        margin-top: 50px;
+    }
+
+    #spaceee{  /*space between text and image in small screen */
+        margin-top: 70px;
+    }
+
+
+    #cardss .card {
+        margin-bottom: 80px;
+    }
+
+    #cardss h5 {
+        font-size: 2.4em;
+    }
+    
+    #cardss #cardBtn {
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+
+    #cardss a { 
+    padding: 17px 80px;    
+    font-size: 15px;
+
+}
+
+ 
+    /* Brand Section ENDS */
+
+
+/* Footer  */
+/* Footer top */
+
+    .footer-top #Contact img {
+        width: 300px;
+        
+    }
+
+    .footer-top #Contact p {
+        font-size: 16px;
+    }
+        .footer-top {
+        text-align: center;
+    }
+
+    .footer-top section {
+        margin-top: 40px;
+    }
+
+/* Footer top ends */
+
+/* Footer Bottom */
+    .footer-bottom .row {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+/* Footer Bottom ENds */
+
+/* Footer ENDS */
+
+
+}
+   
+
+
+
+
+/*** SMALL SCREEN ENDS ***/
+
+
+
+
+
+/*** MOBILE SCREEN EXTRA SMALL ***/
+
+@media (max-width: 575px){
+
+/* 1st blue navbar */
+#firstnav #numberDiv {
+    text-align: center;
+}
+
+/* 1st blue navbar ENDs */
+
+
+    /* Carousel*/
+
+    .carousel-inner img { /* carousel img size */
+        height: 450px;
+
+    }
+
+
+   
+
+    .postlinks a:first-child {
+        
+        margin-left: 0px;
+        
+    }
+
+    #firstCarousel .carousel-caption h1 {
+        font-size: 1.8em;
+        line-height: 1.4em;
+        /* word-spacing: 2px; */
+        margin-bottom: 20px;
+
+    }
+
+     #firstCarousel .carousel-caption p{
+        font-size: 0.7em;
+        font-weight: 500;
+        
+        
+    } 
+
+    #firstCarousel .twoBtns a {
+        margin-top: 15px;
+        padding: 14px 25px;
+        border-radius: 30px;
+        font-size: 0.7em;
+    }
+
+   
+    
+    /* Carousel ENDS */
+
+
+    /* About us Section */
+    #spacebtw {
+        margin-bottom: 65px;
+    }
+
+    #aboutSec h6 {
+        margin-bottom: 15px;
+    }
+
+    #ReadMore {
+        text-align: center;
+    }
+
+    #aboutSec h1 {
+    font-size: 2em;
+    
+}
+
+    #aboutSec #Ptext {
+    font-size: 0.9em;
+    margin-top: 50px;
+    
+}
+
+    .first p, .second p {
+    font-size: 11px;
+}
+
+    .first .skill-bar{
+    margin-left: 14px;
+}
+
+    /* About us Section ends */
+
+
+    /* Design section */
+
+    #designSec h1 {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        font-size: 1.8em;
+    }
+
+
+    /* Design section ends */
+
+    /* Brand Section  */
+    #brandSec .firstrow h6::before{
+        content: "ADVERTISERS";
+        font-size: 45px;
+        bottom: -16px;
+        
+    }
+
+    #brandSec .firstrow h6{
+        font-size: 12px;
+    }
+
+
+    #brandSec .firstrow h1{
+        
+        font-size: 27px;
+       
+    }
+
+    #brandSec .firstrow p {
+
+        font-size: 0.9em;
+    }
+
+    #brandSec .firstrow #twobuttons{
+        text-align: center; 
+        margin-top: 40px;       
+    }
+    
+    #brandSec .firstrow #twobuttons a{
+        
+        border-radius: 30px;
+        padding: 15px 30px;
+        font-size: 13px;
+    
+    }
+
+    #brandSec .Secondrow #twobuttons a:first-child{
+        padding: 15px 48px;
+    
+    }
+
+    #spacee{ /*space between text and image in small screen */
+        margin-top: 40px;
+    }
+
+    #spaceee { /*space between text and image in small screen */
+        margin-top: 60px;
+    }
+
+
+    #cardss .card {
+        margin-bottom: 80px;
+    }
+/* 
+    #cardss h5 {
+        font-size: 2.4em;
+    } */
+    
+    #cardss #cardBtn {
+        margin-top: 40px;
+        margin-bottom: 15px;
+    }
+
+    #cardss a { 
+    padding: 17px 80px;    
+    font-size: 15px;
+
+}
+
+/* Brand Section Ends */
+
+
+/* Footer  */
+/* Footer top */
+
+
+.footer-top #Contact img {
+    width: 300px;
+    
+}
+
+.footer-top #Contact p {
+    font-size: 16px;
+}
+    .footer-top {
+    text-align: center;
+}
+
+.footer-top section {
+    margin-top: 40px;
+}
+
+
+/* Footer top ends */
+
+/* Footer Bottom */
+.footer-bottom .row {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Footer Bottom ENds */
+
+/* Footer ENDS */
+
+
+}
+
+
+    
+    
+
+/*** MOBILE VIEW ENDS - COL - *** /
