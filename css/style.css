@@ -381,7 +381,7 @@ header {
     height: 100%;
     width: 100%;
     position: absolute;
-    background: url(./images/get_start_bg.jpg) no-repeat center center/cover;
+    background: url(../images/get_start_bg.jpg) no-repeat center center/cover;
     z-index: -1;
     filter: brightness(2.5);
 }
