@@ -85,7 +85,19 @@ header {
     background-color: black;
 }
 
+/* logo */
 
+.navbar-brand img {
+    /* margin: 0px 40px; */
+}
+
+/* logo */
+
+#Items { /*nav ul */
+    /* padding: 10px 0px; */
+    
+
+}
 
 /* navbar mid items */
 #Items .nav-item a {
@@ -95,7 +107,9 @@ header {
 }
 
 
-
+#Items a {
+    /* margin: 0px 10px; */
+}
 #Items .nav-item a:hover {
     color: green;
     font-size: 1.2rem;
@@ -112,6 +126,12 @@ header {
 
 /*ADVERTISER AND PUBLISHER BUTTONS */
 
+.postlinks {
+    /* margin: 20px 0px ; */
+    
+
+    
+}
 
 .postlinks a {
     padding: 12px 18px;
@@ -156,6 +176,9 @@ header {
 
 
 /**** CAROUSEL  ***/
+#firstCarousel .carousel-caption {
+    /* bottom: 100px; */
+}
 
 #firstCarousel .carousel-caption h1:first-child {
     margin-bottom: 0;
@@ -179,7 +202,9 @@ header {
     margin-top: 5px;
 }
 
-
+#firstCarousel .twoBtns {
+    /* margin-top: 35px; */
+}
 #firstCarousel .twoBtns a {
     text-decoration: none;
     padding: 15px 50px;
@@ -290,7 +315,6 @@ header {
     background: linear-gradient(to right, #065dfd, #00cdf9 80%);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
-    background-clip: text;
 
 
 }
@@ -390,7 +414,6 @@ header {
     color: white;
 }
 
-
 #designSec h6 {
     font-family: 'Rubik', sans-serif;
     font-weight: 500;
@@ -409,7 +432,6 @@ header {
     background: linear-gradient(to right, #057ffd , #00ccf9);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
-    background-clip: text;
 }
 
 /* PLAY BUTTON  */
@@ -462,7 +484,6 @@ header {
     background: rgba(21 ,126 ,187, 0.6);
     opacity: 0;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-    filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     border-radius: 100%;
     right: -50px;
     bottom: -50px;
@@ -530,7 +551,6 @@ header {
     background: linear-gradient(to right, #0674fd 50% , #00ccf9);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
-    background-clip: text;
 }
 
 #brandSec .firstrow h1::after{
@@ -629,7 +649,6 @@ header {
     background: linear-gradient(to right, #0674fd 50% , #00ccf9);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
-    background-clip: text;
 }
 
 #brandSec #blogSec > div h1:last-of-type:after{
@@ -733,15 +752,11 @@ header {
     line-height: 2.6em;
 }
 
-.footer-top a {
-    color: white;
+.footer-top #Contact a {
     text-decoration: none;
+    color: white;
 }
-
-.footer-top a:hover {
-    color: rgb(0, 89, 255);
-}
-    .footer-top #Contact p {
+.footer-top #Contact p {
     font-size: 13px;
     font-weight: 400;
     margin-top: 40px;
@@ -871,8 +886,6 @@ footer .icons  .fa-google-plus-square:hover{
 
 
 
-
-
 /* FOOTER ENDS */
 
 
@@ -937,7 +950,7 @@ footer .icons  .fa-google-plus-square:hover{
 
 
 /*** Medium Screen ****/
-@media (min-width: 768px) and (max-width: 991px){
+@media (min-width: 768px) and (max-width: 992px){
 
  /* Carousel */
     .carousel-inner img { /* carousel img size */
@@ -1054,7 +1067,7 @@ footer .icons  .fa-google-plus-square:hover{
 
 
 /*** SMALL SCREEN ***/
-@media (min-width: 576px) and (max-width: 767px){
+@media (min-width: 576px) and (max-width: 768px){
 
 /* Carousel */
     .carousel-inner img { /* carousel img size */
@@ -1186,7 +1199,7 @@ footer .icons  .fa-google-plus-square:hover{
 
 /*** MOBILE SCREEN EXTRA SMALL ***/
 
-@media (max-width: 575px){
+@media (max-width: 576px){
 
 /* 1st blue navbar */
 #firstnav #numberDiv {
