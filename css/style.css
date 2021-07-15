@@ -291,6 +291,7 @@ header {
     background: linear-gradient(to right, #065dfd, #00cdf9 80%);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
+    background-clip: text;
 
 
 }
@@ -408,6 +409,7 @@ header {
     background: linear-gradient(to right, #057ffd , #00ccf9);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
+    background-clip: text;
 }
 
 /* PLAY BUTTON  */
@@ -460,6 +462,7 @@ header {
     background: rgba(21 ,126 ,187, 0.6);
     opacity: 0;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     border-radius: 100%;
     right: -50px;
     bottom: -50px;
@@ -527,6 +530,7 @@ header {
     background: linear-gradient(to right, #0674fd 50% , #00ccf9);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
+    background-clip: text;
 }
 
 #brandSec .firstrow h1::after{
@@ -625,6 +629,7 @@ header {
     background: linear-gradient(to right, #0674fd 50% , #00ccf9);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
+    background-clip: text;
 }
 
 #brandSec #blogSec > div h1:last-of-type:after{
@@ -932,7 +937,7 @@ footer .icons  .fa-google-plus-square:hover{
 
 
 /*** Medium Screen ****/
-@media (min-width: 768px) and (max-width: 992px){
+@media (min-width: 768px) and (max-width: 991px){
 
  /* Carousel */
     .carousel-inner img { /* carousel img size */
@@ -1049,7 +1054,7 @@ footer .icons  .fa-google-plus-square:hover{
 
 
 /*** SMALL SCREEN ***/
-@media (min-width: 576px) and (max-width: 768px){
+@media (min-width: 576px) and (max-width: 767px){
 
 /* Carousel */
     .carousel-inner img { /* carousel img size */
@@ -1181,7 +1186,7 @@ footer .icons  .fa-google-plus-square:hover{
 
 /*** MOBILE SCREEN EXTRA SMALL ***/
 
-@media (max-width: 576px){
+@media (max-width: 575px){
 
 /* 1st blue navbar */
 #firstnav #numberDiv {
